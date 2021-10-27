@@ -1,0 +1,87 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: rgb(189, 222, 250);
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  color: rgb(214, 38, 38);
+  font-weight: 70pxs;
+  padding: 3em 3em;
+}
+.title1,
+.title2 {
+  color: rgb(255, 6, 6);
+  text-align: center;
+  padding: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0px;
+  margin-top: 0.1px;
+}
+.primera {
+  background-color: rgba(175, 252, 248, 0.884);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: black;
+  margin: auto;
+  width: 500px;
+  padding: 1em;
+}
+.segundo {
+  background-color: rgba(175, 252, 248, 0.884);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  width: 500px;
+  padding: 1em;
+}
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+}
+.boton1 {
+  background: #8d8deed7;
+  margin-left: 200px;
+  margin-top: auto;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  border: solid 2px #8d8deed7;
+  border-radius: 20px;
+  position: relative;
+  top: -20px;
+  cursor: pointer;
+}
+.boton2 {
+  background: #8d8deed7;
+  margin-left: 200px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  border: solid 2px #8d8deed7;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.num1 {
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+.num2 {
+  margin-left: 155px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #000000;
+}
